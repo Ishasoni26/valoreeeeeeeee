@@ -1,0 +1,364 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Valore Trade Global Oy</title>
+ 
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.css" rel="stylesheet" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="overflow-x-hidden">
+
+
+  <nav class="bg-white border-gray-200 dark:bg-gray-900 dark:border-gray-700 my-4">
+    <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+      <a href="#" class="flex items-center space-x-3 rtl:space-x-reverse">
+          <img src="https://flowbite.com/docs/images/logo.svg" class="h-8" alt="Flowbite Logo" />
+          <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Valor Trade Global Oy</span>
+      </a>
+      <button data-collapse-toggle="navbar-dropdown" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-dropdown" aria-expanded="false">
+          <span class="sr-only">Open main menu</span>
+          <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
+              <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15"/>
+          </svg>
+      </button>
+      <div class="hidden w-full md:block md:w-auto" id="navbar-dropdown">
+        <ul class="flex flex-col font-medium p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+        
+          <li>
+            <a href="/" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Home</a>
+          </li>
+          <li>
+            <a href="./about.html" class="block py-2 px-3 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 md:dark:text-blue-500 dark:bg-blue-600 md:dark:bg-transparent" aria-current="page">About Us</a>
+          </li>
+          <li>
+              <button id="dropdownNavbarLink" data-dropdown-toggle="dropdownNavbar" class="flex items-center justify-between w-full py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 md:w-auto dark:text-white md:dark:hover:text-blue-500 dark:focus:text-white dark:border-gray-700 dark:hover:bg-gray-700 md:dark:hover:bg-transparent">Products<svg class="w-2.5 h-2.5 ms-2.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+      <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 4 4 4-4"/>
+    </svg></button>
+              <!-- Dropdown menu -->
+              <div id="dropdownNavbar" class="z-10 hidden font-normal bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700 dark:divide-gray-600">
+                  <ul class="py-2 text-sm text-gray-700 dark:text-gray-400" aria-labelledby="dropdownLargeButton">
+                    <li>
+                      <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Dashboard</a>
+                    </li>
+                    <li>
+                      <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Settings</a>
+                    </li>
+                    <li>
+                      <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Earnings</a>
+                    </li>
+                  </ul>
+                  <div class="py-1">
+                    <a href="#" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white">Sign out</a>
+                  </div>
+              </div>
+          </li>
+        
+         
+            <a href="/contact.html" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Contact Us</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- banner -->
+  <section class="bg-white dark:bg-gray-900 relative w-screen h-full md:h-[87vh] flex items-center bg-cover bg-center " style="background-image: url('./Img/Layer\ 31.png');">
+    <div class="grid max-w-screen-xl px-4 pt-20 pb-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12 lg:pt-28">
+        <div class="mr-auto place-self-center lg:col-span-7">
+            <h1
+                class="max-w-2xl text-white mb-4 text-4xl font-extrabold leading-none tracking-tight md:text-5xl xl:text-6xl dark:text-white">
+                Building digital <br>products &amp; brands.
+            </h1>
+
+            <p class="max-w-2xl mb-6 font-light text-gray-200 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400">This
+                free and open-source landing page template was built using the utility classes from
+                <a target="_blank" class="hover:underline">Tailwind CSS</a> and based on the
+                components from the <a href="#/" class="hover:underline" target="_blank">Flowbite Library</a> and the
+                <a href="https://flowbite.com/blocks/" target="_blank" class="hover:underline">Blocks System</a>.
+            </p>
+
+            
+
+              <button class="flex items-center justify-center bg-blue-900 text-white text-md font-bold px-4 py-2 rounded-md hover:text-blue-900 hover:bg-white border hover:border-blue-900">
+                Read More
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 900 900" fill="currentColor" class="w-6 h-6 ml-2">
+                  <path d="M400-280v-400l200 200-200 200Z" />
+                </svg>
+              </button>
+                
+            
+        </div>
+
+        
+
+    </div>
+</section>
+
+<!--  -->
+<section class="w-screen my-16 h-auto">
+  <div class="max-w-screen-xl flex flex-col md:flex-row  md:space-y-0 md:space-x-10 items-center justify-between mx-auto p-8">
+    <div class="w-full h-auto flex items-center justify-center md:w-1/2">
+      <img class="h-auto w-full md:w-[80vw] object-cover" src="./Img/Layer 22.png" alt="Image Description">
+    </div>
+    <div class="w-full md:w-1/2">
+      <div class="border border-blue-900 border-t-4 w-11 my-4"></div>
+      <p class="my-2 text-gray-500 font-semibold text-xl">Lorem ipsum dolor sit amet</p>
+      <h1 class="font-bold text-3xl my-1">Consectetur adipiscing elit</h1>
+      <p class="my-10 text-gray-600">
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti perspiciatis repellendus animi optio corrupti incidunt nesciunt, nulla quod sunt molestias quo rem officiis minima deserunt magnam quam quia ipsum! Voluptatibus provident autem quos neque beatae. Eaque at quasi porro, dolore explicabo et iusto aspernatur corrupti! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reiciendis consequatur id molestias perferendis eaque temporibus asperiores commodi impedit quaerat voluptatibus. Voluptates, quidem consectetur ea in quibusdam labore beatae magnam ipsa veniam nulla.
+      </p>
+      <button class="flex items-center justify-center bg-blue-900 text-white text-md font-bold px-4 py-2 rounded-md hover:text-blue-900 hover:bg-white border hover:border-blue-900">
+        Read More
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 900 900" fill="currentColor" class="w-6 h-6 ml-2">
+          <path d="M400-280v-400l200 200-200 200Z" />
+        </svg>
+      </button>
+    </div>
+
+   
+  </div>
+</section>
+
+<section class="w-full h-full py-8 md:h-[55vh] flex items-center justify-center bg-gray-200">
+  <div class=" w-full md:w-5/6 h-full flex flex-col md:flex-row items-center justify-between p-6 md:p-0 gap-10 md:gap-4 md:justify-center">
+
+    <div class="flex justify-center gap-6">
+      <div class="w-24">
+        <svg version="1.1" fill="#1f3469" xmlns="http://www.w3.org/2000/svg"
+          xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 122.879 103.148"
+          enable-background="new 0 0 122.879 103.148" xml:space="preserve">
+          <g>
+            <path
+              d="M55.36,52.179c-0.484,0.284-1.038,0.346-1.542,0.216c-0.504-0.131-0.958-0.455-1.243-0.938l0-0.001 c-0.284-0.484-0.346-1.039-0.215-1.542c0.13-0.503,0.453-0.958,0.936-1.242l0,0l36.073-21.556l3.195-9.961l0,0 c0.079-0.247,0.2-0.469,0.353-0.659c0.16-0.198,0.354-0.362,0.569-0.487L111.88,5.385h0.001c0.488-0.282,1.045-0.34,1.548-0.205 c0.505,0.135,0.958,0.463,1.24,0.951v0.001c0.142,0.246,0.227,0.506,0.259,0.769c0.033,0.27,0.012,0.542-0.06,0.8L113.233,16 l8.298,2.988c0.529,0.19,0.933,0.578,1.154,1.049c0.222,0.471,0.264,1.028,0.074,1.557c-0.084,0.233-0.205,0.44-0.354,0.618 c-0.099,0.118-0.211,0.225-0.333,0.316l0.011,0.017l-0.222,0.128l-18.396,10.621l0,0c-0.264,0.152-0.549,0.239-0.835,0.266 c-0.297,0.027-0.594-0.011-0.869-0.109l-10.344-2.82L55.362,52.178L55.36,52.179L55.36,52.179L55.36,52.179z M64.92,1.768 c4.658,1.249,8.996,3.097,12.952,5.44c4.088,2.421,7.77,5.37,10.977,8.732c0.146,0.152,0.139,0.394-0.014,0.539 c-0.01,0.01-0.021,0.02-0.032,0.028l0,0l-2.872,2.172c-0.16,0.121-0.387,0.096-0.517-0.054c-2.913-2.998-6.243-5.628-9.93-7.79 c-3.573-2.096-7.487-3.752-11.687-4.878c-6.179-1.655-12.4-2.005-18.37-1.219c-6.202,0.817-12.133,2.86-17.466,5.939v0 c-5.334,3.08-10.069,7.195-13.877,12.157c-3.666,4.777-6.473,10.339-8.128,16.518c-1.655,6.179-2.005,12.4-1.219,18.369 c0.817,6.2,2.86,12.133,5.94,17.466l0.01,0.02c3.078,5.325,7.189,10.054,12.146,13.858c4.776,3.666,10.338,6.474,16.516,8.129 c6.178,1.655,12.399,2.005,18.368,1.219c6.2-0.817,12.132-2.86,17.466-5.94c5.334-3.079,10.07-7.195,13.878-12.156 c3.666-4.777,6.474-10.34,8.128-16.517c1.103-4.115,1.627-8.247,1.621-12.309c-0.005-4.191-0.574-8.315-1.653-12.274 c-0.052-0.19,0.05-0.385,0.229-0.456l3.29-1.458c0.193-0.085,0.419,0.003,0.503,0.195c0.01,0.022,0.018,0.044,0.022,0.066 c1.244,4.389,1.913,8.974,1.944,13.646c0.03,4.527-0.54,9.131-1.767,13.71c-1.808,6.745-4.873,12.818-8.876,18.034 c-4.158,5.419-9.328,9.912-15.149,13.274l-0.021,0.012c-5.817,3.354-12.286,5.581-19.049,6.471 c-6.52,0.859-13.312,0.478-20.055-1.329c-6.744-1.807-12.816-4.872-18.033-8.875c-5.417-4.158-9.911-9.328-13.273-15.15h0 C3.561,71.533,1.33,65.057,0.438,58.284c-0.858-6.52-0.477-13.312,1.33-20.055c1.807-6.745,4.873-12.818,8.875-18.034 c4.158-5.419,9.328-9.913,15.149-13.274C31.615,3.56,38.091,1.33,44.863,0.438C51.383-0.42,58.176-0.039,64.92,1.768L64.92,1.768z M55.828,36.375c0.657,0.184,1.295,0.407,1.912,0.668c0.634,0.268,1.244,0.574,1.826,0.915c0.181,0.106,0.242,0.339,0.136,0.521 c-0.026,0.045-0.06,0.082-0.099,0.111l0,0.001l-3.167,2.395c-0.118,0.089-0.271,0.099-0.396,0.039 c-0.223-0.095-0.449-0.182-0.674-0.261c-0.226-0.08-0.461-0.153-0.704-0.222l-0.111-0.025l-0.014-0.004v0 c-1.499-0.401-3.008-0.486-4.454-0.296c-1.503,0.198-2.941,0.694-4.234,1.44c-1.293,0.747-2.442,1.745-3.365,2.948 c-0.889,1.158-1.57,2.507-1.972,4.005c-0.401,1.499-0.486,3.008-0.296,4.455c0.198,1.503,0.693,2.941,1.44,4.235 c0.747,1.293,1.745,2.441,2.947,3.364c1.159,0.89,2.508,1.57,4.005,1.972c0.019,0.005,0.039,0.012,0.056,0.02 c1.479,0.388,2.968,0.467,4.396,0.278c1.503-0.199,2.942-0.695,4.236-1.442c1.296-0.748,2.445-1.747,3.368-2.947l-0.001-0.001 c0.89-1.157,1.57-2.504,1.973-3.999l0,0l0.066-0.263c0.031-0.121,0.117-0.215,0.226-0.259l3.857-1.709 c0.193-0.085,0.418,0.003,0.504,0.195c0.026,0.061,0.036,0.125,0.03,0.187c-0.035,0.492-0.096,0.988-0.179,1.485 c-0.084,0.493-0.19,0.985-0.321,1.474l-0.001,0.002h0.001l-0.003,0.01l-0.005,0.017c-0.554,2.057-1.49,3.91-2.712,5.502 c-1.272,1.659-2.854,3.034-4.634,4.063l-0.021,0.012c-1.776,1.021-3.75,1.699-5.814,1.971c-1.979,0.26-4.04,0.147-6.085-0.393 c-0.02-0.002-0.04-0.006-0.059-0.011h-0.001h0c-2.064-0.553-3.924-1.492-5.521-2.718c-1.659-1.273-3.036-2.856-4.065-4.641 c-1.029-1.783-1.713-3.767-1.985-5.839c-0.263-1.998-0.147-4.078,0.406-6.142c0.553-2.064,1.492-3.924,2.718-5.521 c1.273-1.66,2.857-3.036,4.64-4.065l0.021-0.012c1.777-1.022,3.753-1.701,5.819-1.973c1.997-0.263,4.077-0.147,6.14,0.406 l0.017,0.005c0.026,0.007,0.05,0.014,0.07,0.021C55.775,36.356,55.803,36.365,55.828,36.375L55.828,36.375z M60.345,18.837 c2.712,0.727,5.26,1.763,7.614,3.061c2.427,1.338,4.647,2.954,6.633,4.794c0.154,0.144,0.163,0.385,0.02,0.539 c-0.016,0.016-0.031,0.031-0.049,0.044l0,0l-2.902,2.195c-0.155,0.117-0.37,0.098-0.502-0.037c-1.681-1.49-3.547-2.799-5.574-3.889 c-1.975-1.061-4.102-1.913-6.361-2.518c-3.867-1.036-7.761-1.255-11.497-0.763c-3.879,0.511-7.591,1.789-10.929,3.716l-0.02,0.01 c-3.329,1.925-6.285,4.497-8.665,7.597c-2.294,2.989-4.051,6.471-5.086,10.337c-1.036,3.867-1.255,7.76-0.764,11.495 c0.511,3.881,1.79,7.594,3.716,10.931h0c1.927,3.337,4.502,6.301,7.607,8.683c2.99,2.295,6.471,4.052,10.337,5.088 c3.866,1.037,7.76,1.256,11.494,0.764c3.881-0.512,7.594-1.79,10.932-3.717h-0.001c3.338-1.928,6.302-4.503,8.685-7.607 c2.293-2.989,4.051-6.47,5.086-10.336c0.569-2.123,0.892-4.251,0.985-6.354c0.097-2.165-0.049-4.308-0.416-6.397 c-0.031-0.181,0.07-0.354,0.233-0.42l3.347-1.483c0.192-0.085,0.418,0.003,0.503,0.195c0.016,0.035,0.024,0.07,0.029,0.105 c0.51,2.518,0.737,5.113,0.654,7.741c-0.08,2.563-0.454,5.156-1.145,7.735c-1.188,4.433-3.203,8.424-5.834,11.853 c-2.732,3.56-6.131,6.514-9.959,8.724l0.001,0.001c-3.827,2.209-8.085,3.676-12.536,4.262c-4.286,0.564-8.75,0.314-13.181-0.873 c-4.433-1.188-8.424-3.204-11.854-5.835c-3.561-2.733-6.515-6.131-8.724-9.957l-0.012-0.022c-2.203-3.821-3.665-8.071-4.25-12.514 c-0.564-4.286-0.314-8.75,0.874-13.182c1.188-4.432,3.202-8.424,5.834-11.853c2.733-3.562,6.131-6.516,9.958-8.725l0.021-0.012 c3.822-2.203,8.071-3.665,12.513-4.249C51.449,17.399,55.914,17.65,60.345,18.837L60.345,18.837z M108.899,16.93l1.137-5.766 l-13.832,7.986l-2.525,7.875l8.477,2.311l13.861-8.003l-5.808-2.093c-0.47-0.168-0.849-0.5-1.083-0.914 C108.893,17.917,108.801,17.426,108.899,16.93L108.899,16.93z" />
+          </g>
+        </svg>
+      </div>
+      <div class="flex flex-col gap-10 w-2/3">
+        <h1 class="text-3xl font-bold text-black ">Our Mission</h1>
+        <p class="text-gray-600 text-md"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate non
+          numquam quam rem facere velit deserunt, animi veritatis ipsum dolor sit amet consectetur adipisicing elit.
+          Mollitia tempore ratione voluptates? </p>
+      </div>
+
+    </div>
+    <div class="flex justify-center gap-6">
+      <div class="w-24">
+        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px"
+          y="0px" viewBox="0 0 160 200" fill="#1f3469" style="enable-background:new 0 0 160 160;"
+          xml:space="preserve">
+          <path
+            d="M144.441,79.159c-0.011-0.113-0.038-0.223-0.06-0.335c-0.021-0.109-0.036-0.218-0.068-0.325  c-0.031-0.104-0.078-0.204-0.118-0.305c-0.044-0.111-0.084-0.222-0.14-0.329c-0.048-0.09-0.11-0.174-0.166-0.261  c-0.07-0.109-0.138-0.219-0.221-0.321c-0.014-0.017-0.023-0.037-0.038-0.055c-9.184-10.824-40.706-27.889-61.985-28.749  c-0.545-0.027-1.094-0.042-1.646-0.042s-1.101,0.014-1.646,0.042c-21.279,0.86-52.8,17.924-61.984,28.749  c-0.015,0.017-0.023,0.037-0.038,0.055c-0.083,0.102-0.15,0.211-0.221,0.32c-0.056,0.087-0.119,0.171-0.166,0.262  c-0.056,0.106-0.095,0.217-0.139,0.327c-0.041,0.102-0.088,0.203-0.119,0.308c-0.031,0.106-0.047,0.215-0.068,0.324  c-0.022,0.112-0.049,0.223-0.06,0.336c-0.011,0.112-0.005,0.224-0.005,0.336c0,0.111-0.006,0.221,0.005,0.331  c0.011,0.115,0.039,0.228,0.061,0.342c0.021,0.106,0.036,0.213,0.066,0.317c0.032,0.107,0.08,0.21,0.122,0.315  c0.043,0.108,0.082,0.216,0.136,0.319c0.049,0.093,0.113,0.179,0.171,0.268c0.069,0.107,0.135,0.214,0.216,0.314  c0.015,0.018,0.023,0.038,0.038,0.056c9.184,10.823,40.706,27.888,61.984,28.748c0.545,0.027,1.094,0.042,1.646,0.042  s1.101-0.014,1.646-0.042c21.278-0.86,52.8-17.924,61.984-28.748c0.015-0.017,0.023-0.037,0.038-0.055  c0.084-0.102,0.151-0.212,0.221-0.321c0.056-0.087,0.118-0.17,0.166-0.261c0.056-0.107,0.096-0.218,0.14-0.329  c0.041-0.102,0.088-0.201,0.118-0.305c0.032-0.107,0.047-0.216,0.068-0.325c0.022-0.112,0.049-0.222,0.06-0.335  c0.011-0.111,0.005-0.222,0.005-0.334C144.446,79.381,144.452,79.27,144.441,79.159z M30.531,84.687  c-2.601-1.791-4.847-3.548-6.62-5.194c1.773-1.646,4.02-3.404,6.622-5.196c6.33-4.358,14.722-8.897,23.331-12.432  c-0.604,0.853-1.167,1.736-1.683,2.647c-2.515,4.445-3.952,9.551-3.952,14.981c0,5.429,1.437,10.535,3.952,14.98  c0.516,0.912,1.079,1.794,1.683,2.647C45.254,93.585,36.861,89.046,30.531,84.687z M80,103.547  c-13.658,0-24.771-10.79-24.771-24.054S66.342,55.438,80,55.438s24.771,10.791,24.771,24.055S93.658,103.547,80,103.547z   M129.469,84.687c-6.33,4.359-14.723,8.898-23.334,12.433c0.604-0.853,1.167-1.735,1.683-2.647c2.516-4.445,3.952-9.551,3.952-14.98  c0-5.43-1.437-10.536-3.952-14.981c-0.516-0.912-1.079-1.794-1.683-2.647c8.61,3.535,17.002,8.074,23.332,12.433  c2.602,1.791,4.848,3.549,6.622,5.195C134.316,81.139,132.07,82.896,129.469,84.687z" />
+          <path
+            d="M80,67.298c-6.849,0-12.421,5.471-12.421,12.195c0,6.724,5.572,12.194,12.421,12.194s12.421-5.471,12.421-12.194  C92.421,72.769,86.849,67.298,80,67.298z M80,84.688c-2.989,0-5.421-2.33-5.421-5.194s2.432-5.195,5.421-5.195  s5.421,2.331,5.421,5.195S82.989,84.688,80,84.688z" />
+          <path
+            d="M117.811,40.362c0.88,0,1.76-0.329,2.44-0.991l12.316-11.98c1.386-1.348,1.416-3.563,0.068-4.949  c-1.35-1.386-3.563-1.417-4.949-0.068l-12.316,11.98c-1.386,1.348-1.416,3.563-0.068,4.949  C115.989,40.008,116.899,40.362,117.811,40.362z" />
+          <path
+            d="M39.748,39.371c0.68,0.662,1.561,0.991,2.44,0.991c0.912,0,1.823-0.354,2.509-1.06c1.348-1.386,1.317-3.602-0.068-4.949  l-12.316-11.98c-1.386-1.349-3.602-1.316-4.949,0.068c-1.348,1.386-1.317,3.602,0.068,4.949L39.748,39.371z" />
+          <path
+            d="M79.489,31.442c1.933,0,3.5-1.567,3.5-3.5V11c0-1.933-1.567-3.5-3.5-3.5s-3.5,1.567-3.5,3.5v16.942  C75.989,29.875,77.557,31.442,79.489,31.442z" />
+          <path
+            d="M39.748,120.629l-12.316,11.98c-1.386,1.348-1.416,3.563-0.068,4.949c0.686,0.705,1.597,1.06,2.509,1.06  c0.879,0,1.76-0.329,2.44-0.991l12.316-11.98c1.386-1.348,1.416-3.563,0.068-4.949C43.35,119.313,41.134,119.28,39.748,120.629z" />
+          <path
+            d="M120.252,120.629c-1.386-1.349-3.602-1.316-4.949,0.068c-1.348,1.386-1.317,3.602,0.068,4.949l12.316,11.98  c0.681,0.662,1.561,0.991,2.44,0.991c0.912,0,1.823-0.354,2.509-1.06c1.348-1.386,1.317-3.602-0.068-4.949L120.252,120.629z" />
+          <path
+            d="M80.512,128.558c-1.933,0-3.5,1.567-3.5,3.5V149c0,1.933,1.567,3.5,3.5,3.5s3.5-1.567,3.5-3.5v-16.942  C84.012,130.125,82.444,128.558,80.512,128.558z" />
+          <text x="0" y="175" fill="#000000" font-size="5px" font-weight="bold"
+            font-family="'Helvetica Neue', Helvetica, Arial-Unicode, Arial, Sans-serif">
+        </svg>
+      </div>
+      <div class="flex flex-col gap-10 w-2/3">
+        <h1 class="text-3xl font-bold text-black ">Our Vission</h1>
+        <p class="text-gray-600 text-md"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate non
+          numquam quam rem facere velit deserunt, animi veritatis ipsum dolor sit amet consectetur adipisicing elit.
+          Mollitia tempore ratione voluptates? </p>
+      </div>
+    </div>
+
+
+
+
+  </div>
+</section>
+<section class="w-screen h-full md:h-[45vh] flex flex-col md:flex-row items-center justify-center my-16">
+  <div class="w-full md:w-[80vw] h-full gap-10 flex flex-col md:flex-row items-center justify-between p-4 md:p-0">
+
+    <div class="flex items-end h-full w-full md:w-3/6 p-4">
+      <p class="text-gray-600 text-center md:text-left text-md"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate non
+        numquam quam rem facere velit deserunt, animi veritatis ipsum dolor sit amet consectetur adipisicing elit.
+        Mollitia tempore ratione voluptates? </p>
+    </div>
+    <div class="flex flex-col h-full justify-start items-center md:items-start p-4">
+
+      <svg xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" fill="#1f3469" class="w-22 h-22 "
+        xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg"
+        xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+        xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" version="1.1" x="0px" y="0px"
+        viewBox="0 0 100 100">
+        <g transform="translate(0,-952.36218)">
+          <path
+            style="text-indent:0;text-transform:none;direction:ltr; color:#000000;enable-background:accumulate;"
+            d="m 50.000014,962.38749 c -1.1046,0 -2,0.8954 -2,2 l 0,12 c 0,1.1046 0.8954,2 2,2 1.1046,0 2,-0.8954 2,-2 l 0,-12 c 0,-1.1046 -0.8954,-2 -2,-2 z m -40.968799,13 c -0.6417,-0.013 -1.258501,0.27945 -1.656201,0.84375 -0.6362,0.903 -0.4343,2.14495 0.4688,2.78125 l 9.8124,6.90625 c 0.9031,0.6362 2.1451,0.43425 2.7813,-0.46875 0.6362,-0.903 0.4342,-2.14505 -0.4687,-2.78125 l -9.812599,-6.90625 c -0.3386,-0.2386 -0.7397,-0.3674 -1.125,-0.375 z m 81.937599,0 c -0.3853,0.01 -0.7864,0.1364 -1.125,0.375 l -9.8126,6.90625 c -0.9029,0.6362 -1.1049,1.87825 -0.4687,2.78125 0.6362,0.903 1.8782,1.10495 2.7813,0.46875 l 9.8124,-6.90625 c 0.903,-0.6363 1.105,-1.87825 0.4688,-2.78125 -0.3976,-0.5643 -1.0143,-0.85635 -1.6562,-0.84375 z m -60.9688,9 c -0.7499,-7.5e-4 -1.3507,0.43354 -1.6875,0.90625 L 16.312515,1003.95 c -0.4728,0.7396 -0.3782,1.7939 0.2187,2.4375 l 31.999999,35.3437 c 0.7466,0.8076 2.191,0.8076 2.9376,0 l 32,-34.9999 c 0.5969,-0.6436 0.6915,-1.6979 0.2187,-2.4375 l -12,-19.00007 c -0.3641,-0.55741 -1.0217,-0.91056 -1.6875,-0.90625 l -40,0 z m 2.9062,4 13.2813,0 -8.5625,12.50001 -4.7188,-12.50001 z m 20.9063,0 13.2813,0 -4.7188,12.50001 -8.5625,-12.50001 z m -3.8125,1.53125 9.2188,13.46876 -18.4376,0 9.2188,-13.46876 z m -20.4688,0.90625 4.75,12.56251 -12.8437,0 8.0937,-12.56251 z m 40.9376,0 7.9374,12.56251 -12.6874,0 4.75,-12.56251 z m -47.6876,16.56251 13,0 9.2813,24.5937 -22.2813,-24.5937 z m 17.2813,0 19.875,0 -9.9375,26.3125 -9.9375,-26.3125 z m 24.1563,0 13.2187,0 -22.5313,24.6562 9.3126,-24.6562 z"
+            fill-opacity="1" stroke="none" marker="none" visibility="visible" display="inline" overflow="visible" />
+        </g>
+      </svg>
+
+      <h1 class="text-4xl font-bold text-black mt-4 md:mt-0">Values</h1>
+
+    </div>
+    <div class=" h-full flex justify-center items-end w-full md:w-3/6 p-4">
+      <p class="text-gray-600 text-center md:text-left text-md"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate non
+        numquam quam rem facere velit deserunt, animi veritatis ipsum dolor sit amet consectetur adipisicing elit.
+        Mollitia tempore ratione voluptates? </p>
+    </div>
+
+  </div>
+</section>
+
+<section class="w-screen my-16 h-auto">
+  <div class="max-w-screen-xl flex flex-col md:flex-row  md:space-y-0 md:space-x-10 items-center justify-between mx-auto p-8">
+    <div class="w-full h-auto flex items-center justify-center md:w-1/2">
+      <img class="h-auto w-full md:w-[80vw] object-cover" src="./Img/Layer 14.png" alt="Image Description">
+    </div>
+    <div class="w-full md:w-1/2">
+      <div class="border border-blue-900 border-t-4 w-11 my-4"></div>
+      <p class="my-2 text-gray-500 font-semibold text-xl">Lorem ipsum dolor sit amet</p>
+      <h1 class="font-bold text-3xl my-1">Consectetur adipiscing elit</h1>
+      <p class="my-10 text-gray-600">
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti perspiciatis repellendus animi optio corrupti incidunt nesciunt, nulla quod sunt molestias quo rem officiis minima deserunt magnam quam quia ipsum! Voluptatibus provident autem quos neque beatae. Eaque at quasi porro, dolore explicabo et iusto aspernatur corrupti! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reiciendis consequatur id molestias perferendis eaque temporibus asperiores commodi impedit quaerat voluptatibus. Voluptates, quidem consectetur ea in quibusdam labore beatae magnam ipsa veniam nulla.
+      </p>
+     
+    </div>
+
+   
+  </div>
+</section>
+
+
+<footer class="w-screen">
+  <div class="footerr blue flex items-center w-screen md:h-64 py-12">
+      <div class="flex md:w-[80vw] w-full items-center justify-between mx-auto  gap-12 md:gap-8 md:flex-row flex-col">
+          
+              <div>
+                  <img src="" alt="">
+                  <h1 class="text-white text-sm font-semibold">Valor Trade Global Oy</h1>
+              </div>
+              <div class="text-white text-sm flex flex-col gap-4 justify-between">
+                  <div class="flex gap-3">
+                      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                          stroke="currentColor" class="w-5 h-5 mt-0.5 text-gray-500 hover:text-white ">
+                          <path stroke-linecap="round" stroke-linejoin="round"
+                              d="M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
+                          <path stroke-linecap="round" stroke-linejoin="round"
+                              d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z" />
+                      </svg>
+                      <p class="w-40 md:w-56">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, non.
+                      </p>
+                  </div>
+                  <div class="flex gap-3">
+                      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                          stroke="currentColor" class="w-5 h-5 mt-0.5 text-gray-500 hover:text-white">
+                          <path stroke-linecap="round" stroke-linejoin="round"
+                              d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 0 0 2.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 0 1-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 0 0-1.091-.852H4.5A2.25 2.25 0 0 0 2.25 4.5v2.25Z" />
+                      </svg>
+                      <p>9876543210</p>
+                  </div>
+                  <div class="flex gap-3">
+                      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                          stroke="currentColor" class="w-5 h-5 mt-0.5 text-gray-500 hover:text-white">
+                          <path stroke-linecap="round" stroke-linejoin="round"
+                              d="M21.75 6.75v10.5a2.25 2.25 0 0 1-2.25 2.25h-15a2.25 2.25 0 0 1-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0 0 19.5 4.5h-15a2.25 2.25 0 0 0-2.25 2.25m19.5 0v.243a2.25 2.25 0 0 1-1.07 1.916l-7.5 4.615a2.25 2.25 0 0 1-2.36 0L3.32 8.91a2.25 2.25 0 0 1-1.07-1.916V6.75" />
+                      </svg>
+                      <p class="">email@valortrading.com</p>
+                  </div>
+              </div>
+          
+         
+              <div class="flex flex-col gap-4">
+                  <ul class="flex flex-col justify-center gap-4 text-white text-md">
+                      <li>
+                          <a href="/" class="nav-link text-decoration-none hover:text-gray-500">Home</a>
+                      </li>
+                      <li>
+                          <a href="./about.html" class="nav-link text-decoration-none hover:text-gray-500">About Us</a>
+                      </li>
+                      <li>
+                          <a href="/Products" class="nav-link text-decoration-none hover:text-gray-500">Products</a>
+                      </li>
+                      <li>
+                          <a href="./contact.html" class="nav-link text-decoration-none hover:text-gray-500">Contact Us</a>
+                      </li>
+                  </ul>
+              </div>
+              <div class="flex flex-col gap-4">
+                  <div class="rounded-xl bg-gray-200 ">
+                      <input class="outline-none bg-gray-200 p-3 text-gray-800 text-sm" name="email" type="email"
+                          placeholder="Enter your email">
+                      <button
+                          class="bg-white text-blue-900 text-sm font-bold px-5 py-3 rounded-xl hover:text-white hover:bg-blue-900 hover:border-blue-900">
+                          Subscribe
+                      </button>
+                  </div>
+                  <div class="flex flex-col items-center">
+                      <h1 class="text-white my-4 ">FOLLOW</h1>
+                      <div class="flex gap-4 ">
+                          <a href="#"
+                              class="transition duration-200 ease-in-out transform hover:-translate-y-1 hover:scale-110">
+                              <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" class="w-6 h-6 "
+                                  fill="#989898" viewBox="0 0 32 32">
+                                  <path
+                                      d="M 19.253906 2 C 15.311906 2 13 4.0821719 13 8.8261719 L 13 13 L 8 13 L 8 18 L 13 18 L 13 30 L 18 30 L 18 18 L 22 18 L 23 13 L 18 13 L 18 9.671875 C 18 7.884875 18.582766 7 20.259766 7 L 23 7 L 23 2.2050781 C 22.526 2.1410781 21.144906 2 19.253906 2 z">
+                                  </path>
+                              </svg>
+                          </a>
+                          <a href="#"
+                              class="transition duration-200 ease-in-out transform hover:-translate-y-1 hover:scale-110">
+                              <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" class="w-6 h-6"
+                                  fill="#989898" viewBox="0 0 32 32">
+                                  <path
+                                      d="M 4.0175781 4 L 13.091797 17.609375 L 4.3359375 28 L 6.9511719 28 L 14.246094 19.34375 L 20.017578 28 L 20.552734 28 L 28.015625 28 L 18.712891 14.042969 L 27.175781 4 L 24.560547 4 L 17.558594 12.310547 L 12.017578 4 L 4.0175781 4 z M 7.7558594 6 L 10.947266 6 L 24.279297 26 L 21.087891 26 L 7.7558594 6 z">
+                                  </path>
+                              </svg>
+                          </a>
+                          <a href="#"
+                              class="transition duration-200 ease-in-out transform hover:-translate-y-1 hover:scale-110">
+                              <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" class="w-6 h-6"
+                                  fill="#989898" viewBox="0 0 32 32">
+                                  <path
+                                      d="M 11.46875 5 C 7.917969 5 5 7.914063 5 11.46875 L 5 20.53125 C 5 24.082031 7.914063 27 11.46875 27 L 20.53125 27 C 24.082031 27 27 24.085938 27 20.53125 L 27 11.46875 C 27 7.917969 24.085938 5 20.53125 5 Z M 11.46875 7 L 20.53125 7 C 23.003906 7 25 8.996094 25 11.46875 L 25 20.53125 C 25 23.003906 23.003906 25 20.53125 25 L 11.46875 25 C 8.996094 25 7 23.003906 7 20.53125 L 7 11.46875 C 7 8.996094 8.996094 7 11.46875 7 Z M 21.90625 9.1875 C 21.402344 9.1875 21 9.589844 21 10.09375 C 21 10.597656 21.402344 11 21.90625 11 C 22.410156 11 22.8125 10.597656 22.8125 10.09375 C 22.8125 9.589844 22.410156 9.1875 21.90625 9.1875 Z M 16 10 C 12.699219 10 10 12.699219 10 16 C 10 19.300781 12.699219 22 16 22 C 19.300781 22 22 19.300781 22 16 C 22 12.699219 19.300781 10 16 10 Z M 16 12 C 18.222656 12 20 13.777344 20 16 C 20 18.222656 18.222656 20 16 20 C 13.777344 20 12 18.222656 12 16 C 12 13.777344 13.777344 12 16 12 Z">
+                                  </path>
+                              </svg>
+                          </a>
+                          <a href="#"
+                              class="transition duration-200 ease-in-out transform hover:-translate-y-1 hover:scale-110">
+                              <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" class="w-6 h-6" fill="#989898"
+                                  viewBox="0 0 32 32">
+                                  <path
+                                      d="M 8.6425781 4 C 7.1835781 4 6 5.181625 6 6.640625 C 6 8.099625 7.182625 9.3085938 8.640625 9.3085938 C 10.098625 9.3085938 11.283203 8.099625 11.283203 6.640625 C 11.283203 5.182625 10.101578 4 8.6425781 4 z M 21.535156 11 C 19.316156 11 18.0465 12.160453 17.4375 13.314453 L 17.373047 13.314453 L 17.373047 11.310547 L 13 11.310547 L 13 26 L 17.556641 26 L 17.556641 18.728516 C 17.556641 16.812516 17.701266 14.960938 20.072266 14.960938 C 22.409266 14.960937 22.443359 17.145609 22.443359 18.849609 L 22.443359 26 L 26.994141 26 L 27 26 L 27 17.931641 C 27 13.983641 26.151156 11 21.535156 11 z M 6.3632812 11.310547 L 6.3632812 26 L 10.923828 26 L 10.923828 11.310547 L 6.3632812 11.310547 z">
+                                  </path>
+                              </svg>
+                          </a>
+                      </div>
+                  </div>
+              </div>
+         
+      </div>
+  </div>
+  <div class="w-screen flex justify-end dark-blue h-10">
+      <div class="w-full flex justify-center items-center ">
+          <p class="text-white text-center text-xs "> © Copyright Valor Trade Global Oy 2024. All Right Reserved
+          </p>
+      </div>
+  </div>
+</footer>
+
+
+
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.js"></script>
+</body>
+</html>
